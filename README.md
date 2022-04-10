@@ -1,1 +1,1 @@
-# SI_2022_lab1_161207
+Teodora Jakimovska 161207
