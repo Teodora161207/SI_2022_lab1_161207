@@ -1,0 +1,44 @@
+$  git clone https://github.com/Teodora161207/SI_2022_lab1_161207.git
+Cloning into 'SI_2022_lab1_161207'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+$ cd SI_2022_lab1_161207
+
+$ git add .
+
+$ git commit -m "Add 5 items to the shopping list"
+[master 9999aeb] Add 5 items to the shopping list
+ 1 file changed, 5 insertions(+)
+ create mode 100644 shopping_list.txt
+
+$ git add .
+
+$ git commit -m "Add quantities to the items."
+[master dd5d8ef] Add quantities to the items.
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+$ git branch branch1
+
+$ git branch branch2
+
+$ git remote set-url origin https://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@github.com/Teodora161207/SI_2022_lab1_161207.git
+
+$ git push --all
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 673 bytes | 224.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Teodora161207/SI_2022_lab1_161207.git
+   1bbd420..dd5d8ef  master -> master
+ * [new branch]      branch1 -> branch1
+ * [new branch]      branch2 -> branch2
+
+
+
+
+
